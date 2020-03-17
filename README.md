@@ -47,7 +47,7 @@ month for the first 50 TB;
 for 100GB this would be
 $(0.023 * 100) = $2.3 per
 month
-AWS S3
+**AWS S3
 Pricing
 
 4. **Resized S3 bucket** to store resized versions of the original pictures.
