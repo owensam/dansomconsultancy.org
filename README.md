@@ -1,9 +1,9 @@
-# AWSPics
+# Dansom Photo Gallery Project    # By Owen Sam
 
 > An AWS CloudFormation stack to run a serverless password-protected photo
   gallery
 
-**Demo Prototype:** <https://owensam.github.io/dansom/>  
+**Prototype Demo:** <https://owensam.github.io/dansom/>  
 **Credentials:** "username" / "password"
 
 ![](assets/awspics.gif)
@@ -47,8 +47,7 @@ month for the first 50 TB;
 for 100GB this would be
 $(0.023 * 100) = $2.3 per
 month
-**AWS S3
-Pricing
+** <https://aws.amazon.com/s3/pricing/>  
 
 4. **Resized S3 bucket** to store resized versions of the original pictures.
 5. **Web S3 bucket** to store the static website generated from the data in the
