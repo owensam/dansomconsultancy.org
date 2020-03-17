@@ -40,7 +40,16 @@ There are 7 main components:
 2. **Login lambda function** to validate authentication and sign cookies to
    allow access to restricted buckets.
 3. **Source S3 bucket** to store original pictures and metadata driving the
-   site.
+   site. AWS S3 Cloud Storage for
+project photos.
+$0.023 per GB per
+month for the first 50 TB;
+for 100GB this would be
+$(0.023 * 100) = $2.3 per
+month
+AWS S3
+Pricing
+
 4. **Resized S3 bucket** to store resized versions of the original pictures.
 5. **Web S3 bucket** to store the static website generated from the data in the
    source bucket.
