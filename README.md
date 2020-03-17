@@ -3,7 +3,7 @@
 > An AWS CloudFormation stack to run a serverless password-protected photo
   gallery
 
-**Demo:** <https://awspics.net>  
+**Demo Prototype:** <https://owensam.github.io/dansom/>  
 **Credentials:** "username" / "password"
 
 ![](assets/awspics.gif)
@@ -12,6 +12,22 @@
 
 Host a self-contained, declarative infrastructure, password-protected,
 data-driven static photo gallery to share project pictures with clients, without needing to run, maintain (or pay for) servers.
+
+## Solution
+Create a portal accessible by both Dansom Consulting and its clients. 
+Dansom Consulting will create accounts for its clients and each client can have multiple
+projects/galleries. Clients will login in to the portal and view their project galleries.
+Links to project galleries can be activated  by Dansom Consulting through  the platform.
+
+## Advantages of Hosting the application on AWS Cloud
+
+The application files will be hosted on AWS cloud. This offers a more reliable, secure,
+affordable, and scalable implementation than having Dansom Consulting buy their own
+server to host the platform application. Cost of physically owning and provisioning a
+server for this simple project can be up to $400/year compared to an approximate of
+$168/year when hosting this on the cloud not forgetting all the benefits that the cloud
+provides
+
 
 ## Architecture
 
@@ -307,6 +323,6 @@ Credits for update to nodejs 10.x and ImageMagick Layer:
 * [image-magick-lambda-layer — version 1.0.0](https://github.com/serverlesspub/imagemagick-aws-lambda-2)
 
 
-## License
+## Author
 
 Created by Owen Sam Otieno
