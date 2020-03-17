@@ -1,4 +1,5 @@
-# Dansom Photo Gallery Project    # By Owen Sam
+# Dansom Photo Gallery Project   
+# Developed By Owen Sam Otieno
 
 > An AWS CloudFormation stack to run a serverless password-protected photo
   gallery
