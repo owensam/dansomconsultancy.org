@@ -4,7 +4,7 @@
 > An AWS CloudFormation stack to run a serverless password-protected photo
   gallery
 
-**Prototype Demo:** <https://owensam.github.io/dansom/>  
+**Prototype Demo:** <https://awspics.net/>  
 **Credentials:** "username" / "password"
 
 ![](assets/awspics.gif)
