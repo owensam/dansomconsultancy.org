@@ -63,7 +63,9 @@ month
 
 Requires that `aws-cli`, `docker` and `htpasswd` be installed.
 
-You'll also need a domain whose CNAME DNS value you can update.
+A Domain whose CNAME DNS value you can update will be needed.
+AWS Route 53 Provides ability to creates a Hosted Zone for Dansom Consulting subdomain used to
+access the galleries:** <https://galleries.dansomconsultancy.org/>
 
 ## Instructions
 
