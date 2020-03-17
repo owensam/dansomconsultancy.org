@@ -1,5 +1,5 @@
 # Dansom Photo Gallery Project   
-# Developed By Owen Sam Otieno
+## Developed By Owen Sam Otieno & Joseph Ouma
 
 > An AWS CloudFormation stack to run a serverless password-protected photo
   gallery
@@ -17,7 +17,8 @@ data-driven static photo gallery to share project pictures with clients, without
 ## Solution
 Create a portal accessible by both Dansom Consulting and its clients. 
 Dansom Consulting will create accounts for its clients and each client can have multiple
-projects/galleries. Clients will login in to the portal and view their project galleries.
+projects/galleries.
+Clients will login in to the portal and view their project galleries.
 Links to project galleries can be activated  by Dansom Consulting through  the platform.
 
 ## Advantages of Hosting the application on AWS Cloud
@@ -267,7 +268,7 @@ Browser                   CloudFront             Lambda              S3
 
 ## Miscellaneous
 
-This project only works as-is if everything is set up in the `us-east-1` AWS
+This Demo project only works as-is if everything is set up in the `us-east-1` AWS
 region, because CloudFormation only supports SSL certificates from that region.
 It's not too difficult to adapt this to work in another region, but you can't
 rely on the SSL certificate being created in CloudFormation. Create it manually
@@ -276,7 +277,7 @@ rely on the SSL certificate being created in CloudFormation. Create it manually
 reference.
 
 GeoRestriction is commented out in the CloudFront configuration in the app.yaml. If you are sharing
-with friends and family in a specific geographic area, this is a slight improvement to security and 
+with Clients in a specific geographic area, this is a slight improvement to security and 
 cost reduction. The US is provided as an example, but additional countries can be added to a 
 (whitelist/blacklist) based on their two letter ISO 3166-1 alpha-2 country code.
 
@@ -314,8 +315,6 @@ the files as a partial listing in the web directory.
 
 ## Credits
 
-This project is mostly a compilation from multiple existing projects out there.
-
 * [Multiverse HTML template](https://html5up.net/multiverse)
 * [Lens HTML template](https://html5up.net/lens)
 * [Log In HTML template](https://codepen.io/boudra/pen/YXzLBN)
@@ -335,5 +334,4 @@ Credits for update to nodejs 10.x and ImageMagick Layer:
 
 
 ## Author
-
-Created by Owen Sam Otieno
+Created by # Owen Sam Otieno 
