@@ -334,4 +334,4 @@ Credits for update to nodejs 10.x and ImageMagick Layer:
 
 
 ## Author
-Created by # Owen Sam Otieno 
+Created by Owen Sam Otieno 
