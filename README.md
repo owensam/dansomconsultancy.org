@@ -11,8 +11,7 @@
 ## Goals
 
 Host a self-contained, declarative infrastructure, password-protected,
-data-driven static photo gallery to share personal pictures with friends and
-family, without needing to run, maintain (or pay for) servers.
+data-driven static photo gallery to share project pictures with clients, without needing to run, maintain (or pay for) servers.
 
 ## Architecture
 
@@ -42,8 +41,6 @@ Requires that `aws-cli`, `docker` and `htpasswd` be installed.
 You'll also need a domain whose CNAME DNS value you can update.
 
 ## Instructions
-
-A video walkthrough [is available on YouTube](https://youtu.be/010AGcY4uoE).
 
 1. Configure `aws-cli` (recommended to use `us-east-1`, see "Miscellaneous"
    below):
@@ -312,4 +309,4 @@ Credits for update to nodejs 10.x and ImageMagick Layer:
 
 ## License
 
-AWSPics is MIT licensed.
+Created by Owen Sam Otieno
